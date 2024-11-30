@@ -1,0 +1,70 @@
+section.resume-section {
+  border-bottom: 1px solid $gray-300;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  .resume-item {
+    .resume-content {}
+    .resume-date {
+      min-width: none;
+    }
+  }
+}
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+    .resume-item {
+      .resume-content {}
+      .resume-date {
+        min-width: 18rem;
+      }
+    }
+  }
+}
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+/* Custom CSS for Project Cards */
+.card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Custom CSS for Tech Talk Images */
+.tech-talk-images .card {
+  margin-bottom: 30px;
+}
+
+.tech-talk-images .card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.tech-talk-images h2 {
+  color: #333; /* Change this color to match your theme */
+}
+
+/* Optional: if you want to add a hover effect to your images */
+.tech-talk-images .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.blog-link {
+  color: #007bff; /* Bootstrap primary blue, change if needed */
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.blog-link:hover, .blog-link:focus {
+  color: #0056b3; /* Darker blue on hover, change if needed */
+  text-decoration: underline;
+}
