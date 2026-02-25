@@ -126,6 +126,11 @@ export const portfolioData = {
     ],
     personalProjects: [
         {
+            title: "OwnVU Technologies",
+            url: "https://ownvu.vercel.app/",
+            description: "A self-motivated start-up providing total IT solutions, home automation, and security-related products. Services include cloud computing, doorstep hardware service, and long-term maintenance support."
+        },
+        {
             title: "Unlocking PDF in React",
             url: "https://unlock-pdf-mu.vercel.app/",
             description: "A modern web application built with React for unlocking password-protected PDF files directly in the browser. It features a clean UI and efficient processing."
