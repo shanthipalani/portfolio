@@ -134,6 +134,11 @@ export const portfolioData = {
             title: "Unlocking PDF in React",
             url: "https://unlock-pdf-mu.vercel.app/",
             description: "A modern web application built with React for unlocking password-protected PDF files directly in the browser. It features a clean UI and efficient processing."
+        },
+        {
+            title: "Jim's Gym",
+            url: "https://gym-personal-trainer-one.vercel.app/",
+            description: "A specialized personal training platform focused on posture correction and biomechanics. Features customized workout programming, nutritional guidance, and a conversion-oriented design with WhatsApp integration."
         }
     ],
     awards: [
